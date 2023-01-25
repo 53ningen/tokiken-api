@@ -1,0 +1,24 @@
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tokikenapi-prod-32947-authRole",
+      "UnauthRoleArn": "arn:aws:iam::247601741829:role/amplify-tokikenapi-prod-32947-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::247601741829:role/amplify-tokikenapi-prod-32947-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-tokikenapi-prod-32947-deployment",
+      "UnauthRoleName": "amplify-tokikenapi-prod-32947-unauthRole",
+      "StackName": "amplify-tokikenapi-prod-32947",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:247601741829:stack/amplify-tokikenapi-prod-32947/15659ae0-9c15-11ed-aa1f-0eee014ef191",
+      "AmplifyAppId": "d1z5qn3e5dq1rc"
+    },
+    "categories": {
+      "function": {
+        "TokimekiAPIHandler": {
+          "secretsPathAmplifyAppId": "d1z5qn3e5dq1rc",
+          "deploymentBucketName": "amplify-tokikenapi-prod-32947-deployment",
+          "s3Key": "amplify-builds/TokimekiAPIHandler-48786d716c676a614434-build.zip"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "tokiken-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "amplify:Songs": "cd amplify/backend/function/Songs && tsc -p ./tsconfig.json && cd -",
+    "amplify:TokimekiAPIHandler": "cd amplify/backend/function/TokimekiAPIHandler && tsc -p ./tsconfig.json && cd -"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.109",
+    "@types/node": "^18.11.18",
+    "aws-sdk": "^2.1300.0",
+    "cross-fetch": "^3.1.5"
+  }
+}
